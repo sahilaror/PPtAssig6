@@ -1,0 +1,29 @@
+ANS 1 The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects. Java Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion, manipulation, and deletion. Java Collection means a single unit of objects.
+
+ANS 2 Collection is the interface where you group objects into a single unit. Collections is a utility class that has some set of operations you perform on Collection. Collection does not have all static methods in it, but Collections consist of methods that are all static.
+
+ANS 3 Benefits of the Java Collections Framework
+
+Reduces programming effort: By providing useful data structures and algorithms, the Collections Framework frees you to concentrate on the important parts of your program rather than on the low-level "plumbing" required to make it work.
+
+ANS 4 This extends Collection and an instance of List stores an ordered collection of elements. This extends Collection to handle sets, which must contain unique elements. This extends Set to handle sorted sets. This maps unique keys to values.
+
+ANS 5 A List interface is an ordered collection of values in which values may or may not be duplicated. A Set interface in Java is an unordered collection of values in which values cannot be repeated. Since lists are ordered, position indexing is allowed in them.
+
+ANS 6 The basic difference between Iterator and ListIterator is that both being cursor, Iterator can traverse elements in a collection only in forward direction. On the other hand, the ListIterator can traverse in both forward and backward directions. Using iterator you can not add any element to a collection.
+
+ANS 7  1)Comparable provides a single sorting sequence. In other words, we can sort the collection on the basis of a single element such as id, name, and price.	The Comparator provides multiple sorting sequences. In other words, we can sort the collection on the basis of multiple elements such as id, name, and price etc.
+2) Comparable affects the original class, i.e., the actual class is modified.	Comparator doesn't affect the original class, i.e., the actual class is not modified.
+3) Comparable provides compareTo() method to sort elements.	Comparator provides compare() method to sort elements.
+4) Comparable is present in java.lang package.
+
+1)The Comparator provides multiple sorting sequences. In other words, we can sort the collection on the basis of multiple elements such as id, name, and price etc.
+2)Comparator doesn't affect the original class, i.e., the actual class is not modified.
+3)Comparator provides compare() method to sort elements.
+4)A Comparator is present in the java.util package.
+
+ANS 8 Collisions in the HashMap. A collision, or more specifically, a hash code collision in a HashMap, is a situation where two or more key objects produce the same final hash value and hence point to the same bucket location or array index.
+
+ANS 9 HashMap allows storing at most one null key and many null values. However, TreeMap doesn't allow a null key but may contain many null values. If we're using a TreeMap with a user-defined Comparator, then it depends on the implementation of the compare() method how null values get handled.
+
+ANS 10A LinkedHashMap contains values based on the key. It implements the Map interface and extends the HashMap class. It contains only unique elements. It may have one null key and multiple null values.
